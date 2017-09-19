@@ -7,8 +7,11 @@ import WorkorderStatus from './workorderStatus/workorderStatus';
 class Layout extends Component {
   render() {
     return (
-      <div style={{border: "3px solid black", display: 'flex', height:400}}>
-        Outer Component
+      <div style={{border: "3px solid black", display: 'flex',flexDirection:'column', height:400}}>
+        <CustomerDetails/>
+        <Notes/>
+        <WorkorderStatus />
+        <UnitDetails />
       </div>
 
     );

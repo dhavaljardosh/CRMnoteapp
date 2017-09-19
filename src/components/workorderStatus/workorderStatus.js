@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class WorkorderStatus extends Component {
+export default class WorkorderStatus extends React.Component {
   render() {
     return (
-      <div style={{border: "3px solid black", display: 'flex', height:400}}>
-        Outer Component
+      <div style={{border: "3px solid black",flex:1}}>
+        This is WorkorderStatus
       </div>
-
     );
   }
 }
-
-export default WorkorderStatus;
