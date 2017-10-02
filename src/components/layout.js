@@ -7,12 +7,19 @@ import WorkorderStatus from './workorderStatus/workorderStatus';
 class Layout extends Component {
   render() {
     return (
-      <div style={{border: "3px solid black", display: 'flex',flexDirection:'column', height:400}}>
-        <CustomerDetails/>
-        <Notes/>
-        <WorkorderStatus />
-        <UnitDetails />
-      </div>
+        <div className="container-fluid" style={{border:"1px solid black"}}>
+          <div className="row">
+            <div className="col s6">
+              <CustomerDetails/>
+              <WorkorderStatus />
+              <UnitDetails />
+            </div>
+
+            <div className="col s6">
+              <Notes/>
+            </div>
+          </div>
+        </div>
 
     );
   }
