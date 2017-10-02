@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Notes extends Component {
   render() {
     return (
-      <div style={{border: "3px solid black"}}>
-        Note COmponent
+      <div style={{height:'38em',padding:10}}>
+        <span className="card-title" style={{fontSize:'1.2em'}}>Note Component</span>
       </div>
 
     );

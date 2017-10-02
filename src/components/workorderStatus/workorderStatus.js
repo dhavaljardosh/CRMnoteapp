@@ -3,8 +3,8 @@ import React from 'react';
 export default class WorkorderStatus extends React.Component {
   render() {
     return (
-      <div style={{border: "3px solid black",flex:1}}>
-        This is WorkorderStatus
+      <div style={{height:'10em',padding:10}}>
+        <span className="card-title" style={{fontSize:'1.2em'}}>Work Order Status</span>
       </div>
     );
   }

@@ -7,16 +7,26 @@ import WorkorderStatus from './workorderStatus/workorderStatus';
 class Layout extends Component {
   render() {
     return (
-        <div className="container-fluid" style={{border:"1px solid black"}}>
-          <div className="row">
+        <div className="container">
+          <div className="row"  style={{marginTop:20}}>
             <div className="col s6">
-              <CustomerDetails/>
-              <WorkorderStatus />
-              <UnitDetails />
+              <div className="card">
+                <WorkorderStatus />
+              </div>
+              <div className="card">
+                <CustomerDetails/>
+              </div>
+              <div className="card">
+                <UnitDetails />
+              </div>
+
+
             </div>
 
             <div className="col s6">
-              <Notes/>
+              <div className="card">
+                <Notes/>
+              </div>
             </div>
           </div>
         </div>

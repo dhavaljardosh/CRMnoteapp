@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class CustomerDetails extends Component {
   render() {
     return (
-      <div style={{border: "3px solid black", height:'13em'}}>
-      Customer Details
+      <div style={{height:'13em',padding:10}}>
+        <span className="card-title" style={{fontSize:'1.2em'}}>Customer Details</span>
       </div>
 
     );
