@@ -4,7 +4,7 @@ export default class WorkorderStatus extends React.Component {
   render() {
     return (
       <div style={{padding:'10px 15px 0px'}}>
-        <span className="card-title" style={{fontSize:'1.5em'}}>Work Order Status</span>
+        <span className="card-title headers">Work Order Status</span>
         <hr/>
         <div className="container-fluid">
           <div className="row">

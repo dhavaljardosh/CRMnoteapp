@@ -32,3 +32,9 @@
   text-align: left;
   font-size: 14px;
 }
+
+.headers{
+  color: #23819a;
+  font-size: 1em;
+  font-weight:'bolder';
+}

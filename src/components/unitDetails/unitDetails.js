@@ -4,7 +4,7 @@ class UnitDetails extends Component {
   render() {
     return (
       <div style={{padding:'5px 10px 0px'}}>
-        <span className="card-title" style={{fontSize:'1.5em'}}>Unit Details</span>
+        <span className="card-title headers">Unit Details</span>
         <hr/>
         <div className="container-fluid">
           <div className="row">
