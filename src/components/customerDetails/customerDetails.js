@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class CustomerDetails extends Component {
   render() {
     return (
-      <div style={{padding:10}}>
-        <span className="card-title" style={{fontSize:'1.2em'}}>Customer Details</span>
+      <div style={{padding:'5px 10px 0px'}}>
+        <span className="card-title" style={{fontSize:'1.5em'}}><b>Customer Details</b></span>
         <hr/>
         <div className="container-fluid">
           <div className="row">

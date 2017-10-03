@@ -11,10 +11,10 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           {/* <img src="../src/MHD-Colors.png" className="App-logo" alt="logo" /> */}
-          <h2 style={{marginBottom:0}}>MHD NoteApp</h2>
+          <h2 style={{paddingBottom:100}}>MHD NoteApp</h2>
         </div>
 {/*     Here should be the Components                   */}
-          <Layout style={{border:'5px solid pink'}} className="layout"/>
+          <Layout style={{marginTop:5}} className="layout"/>
 
       </div>
     );
