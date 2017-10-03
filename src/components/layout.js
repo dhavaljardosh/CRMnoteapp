@@ -7,16 +7,16 @@ import WorkorderStatus from './workorderStatus/workorderStatus';
 class Layout extends Component {
   render() {
     return (
-        <div className="container">
-          <div className="row"  style={{marginTop:20}}>
-            <div className="col s6">
-              <div className="card">
+        <div className="container layout">
+          <div className="row"  style={this.props.style}>
+            <div className="col s6" >
+              <div className="card z-depth-3">
                 <WorkorderStatus />
               </div>
-              <div className="card">
+              <div className="card z-depth-3">
                 <CustomerDetails/>
               </div>
-              <div className="card">
+              <div className="card z-depth-3">
                 <UnitDetails />
               </div>
 
@@ -24,7 +24,7 @@ class Layout extends Component {
             </div>
 
             <div className="col s6">
-              <div className="card">
+              <div className="card z-depth-3">
                 <Notes/>
               </div>
             </div>

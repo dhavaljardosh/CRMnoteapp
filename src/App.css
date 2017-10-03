@@ -24,6 +24,8 @@
   to { transform: rotate(360deg); }
 }
 
-Layout{
-  margin-top: 60;
+.layout{
+  text-align: left;
+  font-size: 12px;
+
 }
